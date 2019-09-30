@@ -1,0 +1,89 @@
+.header{
+    background-color:#ffbb0079; /* Color of the header */
+    box-shadow: 8px 8px 12px #1b1b1b79; /* Header's shadow */
+    height:8%; /* Header's height in percentage of the page */
+    width: 50%; /* Header's width in percentage of the page */
+    text-align:center; /* Text alignement */
+    margin-left:25%; /* Margin between the left border and the header */
+    margin-right:25%; /* Margin between the right border and the header */
+}
+@font-face {
+	font-family: "sketch3d"; /* Name of the custom font */
+	src: url('nikolas.otf'); /* Name of the font file */
+}
+@font-face {
+	font-family: "coverup"; /* Name of the custom font */
+	src: url('coverup.otf'); /* Name of the font file */
+}
+h1.title{
+    color:#000000; /* Titles' font color */
+    font-family: sketch3d; /* Titles' font */
+    font-size: 50; /* Titles' font size */
+}
+a.button{
+    color:#000000; /* Buttons' font color */
+    font-family: sketch3d; /* Buttons' font */
+    font-weight: bold; /* Buttons' font weight */
+    font-size: 40; /* Buttons' font size */
+}
+a:hover{
+    text-decoration: underline; /* The links will be underlined when the user hover them */
+}
+body{
+    background-image: url(back.jpg); /* Name of the background picture file */
+    background-position: left bottom; /* Background picture position */
+}
+.formation{
+    background-color:#ffbb0079; /* Color of the "Education" button */
+    box-shadow: 8px 8px 12px #1b1b1b79; /* Shadow of the "Education" button */
+    height:10%; /* Height of the "Education" button */
+    width:30%; /* Width of the "Education" button */
+    text-align:center; /* Text alignement */
+    margin-right:5%; /* Margin between the right border and the "Education" button */
+    margin-left:65%; /* Margin between the left border and the "Education" button */
+    margin-top:5%; /* Margin between the top border and the "Education" button */
+}
+.xp{
+    background-color:#ffbb0079; /* Color of the "Professional experiment" button */
+    box-shadow: 8px 8px 12px #1b1b1b79; /* Shadow of the "Professional experiment" button */
+    height:10%; /* Height of the "Professional experiment" button */
+    width:30%; /* Width of the "Professional experiment" button */
+    text-align:center; /* Text alignement */
+    margin-right:5%; /* Margin between the right border and the "Professional experiment" button */
+    margin-left:65%; /* Margin between the left border and the "Professional experiment" button */
+    margin-top:6%; /* Margin between the top border and the "Professional experiment" button */
+}
+.skills{
+    background-color:#ffbb0079; /* Color of the "Skills" button */
+    box-shadow: 8px 8px 12px #1b1b1b79; /* Shadow of the "Skills" button */
+    height:10%; /* Height of the "Skills" button */
+    width:30%; /* Width of the "Skills" button */
+    text-align:center; /* Text alignement */
+    margin-right:5%; /* Margin between the right border and the "Skills" button */ 
+    margin-left:65%; /* Margin between the left border and the "Skills" button */
+    margin-top:6.5%; /* Margin between the top border and the "Skills" button */
+}
+.likes{
+    background-color:#ffbb0079; /* Color of the "Hobbies" button */
+    box-shadow: 8px 8px 12px #1b1b1b79; /* Shadow of the "Hobbies" button */
+    height:10%; /* Height of the "Hobbies" button */
+    width:30%; /* Width of the "Hobbies" button */
+    text-align:center; /* Text alignement */
+    margin-right:5%; /* Margin between the right border and the "Hobbies" button */
+    margin-left:65%; /* Margin between the left border and the "Hobbies" button */
+    margin-top:7%; /* Margin between the top border and the "Hobbies" button */
+}
+.nom{
+    float:left; /* Permits the sentence " My name is ... Theo Garnon " to be at left side of the screen */
+    text-align:center; /* Text alignement */
+    margin-left:19%; /* Margin between the left border and the "Hobbies" button */
+}
+p{
+    float:left;
+    text-align:center;
+    margin-left: 3%;
+    margin-right: 40%;
+    font-family: coverup;
+    font-size: 30;
+    font-weight: bold;
+}

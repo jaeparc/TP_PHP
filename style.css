@@ -1,0 +1,18 @@
+p.bleu{
+    color: #0000ff;
+    font-size:20px;
+}
+p.rouge{
+    color: #ff0000;
+    font-size:30px;
+}
+td.lr , th.lr
+{
+    color:#008000;
+    font-size:15px;
+}
+td.mid, th.mid
+{
+    color:#0000ff;
+    font-size:15px;
+}
