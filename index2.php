@@ -7,6 +7,7 @@
 </head>
 
 <body>
+coucou
     <form action="index2.php" method="POST">
         <label>Votre chiffre</label>
         <input type="text" name="LeChiffre" />
