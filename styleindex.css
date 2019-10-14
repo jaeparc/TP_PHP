@@ -1,10 +1,73 @@
-div.exo {
+.exo {
     font-family: arial;
     font-style: italic;
     text-align: center;
 }
 
+.exo a {
+    color: #ff0000;
+}
+
 h1 {
     font-family: impact;
     text-align:center;
+    color : #000000;
+}
+.header{
+    background-color: #0000ff;
+    height : 5%;
+    width : 25%;
+    margin-left : 37.5%;
+    margin-right : 37.5%;
+}
+.headertest{
+    background-color: #33c5ff;
+    height : 10%;
+    width : 100%;
+    text-align:center;
+    font-size:30px;
+}
+.corps{
+    background-color:#ffc400;
+    height : 80%;
+    width : 100%;
+    text-align:center;
+    font-size:30px;
+}
+.footer{
+    background-color:#00ff73;
+    height : 10%;
+    width : 100%;
+    text-align:center;
+    font-size:30px;
+}
+.menu{
+    background-color: #ff00ea;
+    height : 100%;
+    width : 10%;
+    text-align:center;
+    font-size:30px;
+}
+.menu1{
+    background-color: #00ff0d;
+    height : 50%;
+    width : 10%;
+    text-align:center;
+    font-size:30px;
+}
+.menu2{
+    background-color: #ff00aa;
+    height : 50%;
+    width : 10%;
+    text-align:center;
+    font-size:30px;
+}
+.article{
+    float:left;
+}
+.news{
+    float:right;
+    background-color:#ff0000;
+    height:33%;
+    width:10%;
 }

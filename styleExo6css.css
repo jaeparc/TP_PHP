@@ -1,0 +1,13 @@
+div.bigdiv
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+div.text
+{
+    height: 50%;
+    width: 10%;
+    float: left;
+}
